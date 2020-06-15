@@ -47,7 +47,7 @@ class WooPlugin{
 
 		add_settings_section(
 			'woopn_pluginPage_section', 
-			__( 'Your section description', 'woopn' ), 
+			__( 'It is a custom woo plugin', 'woopn' ), 
 			array($this,'woopn_settings_section_callback'), 
 			'pluginPage'
 		);
@@ -138,11 +138,11 @@ class WooPlugin{
 		?>
 		<input type='text' name='woopn_settings[woopn_text_field_2]' value='<?php echo $options['woopn_text_field_2']; ?>'>
 		<?php
-
+		echo __('Didn\'t finished yet.', 'woopn');
 	}
 	function woopn_settings_section_callback(  ) { 
 
-		echo __( 'This section description', 'woopn' );
+		echo __( 'Here you select a product and a targeted page to upload videos.', 'woopn' );
 
 	}
 
