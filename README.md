@@ -1,5 +1,5 @@
-# wooplugin
-
+# Wooplugin
+## Project Description
 We want to sell a WooCommerce product. If someone purchases a product we will give him a certain page link in our WordPress system.
 
 That page is a special page template will have
@@ -23,3 +23,13 @@ That page is a special page template will have
 9. We appreciate making that uploading a file system using VueJs.
 
 10. Target filesystem could be AWS, Google Drive, or any other cloud storage service you are familiar with. 
+
+## Project Status within now
+1. When you install and activate the plugin, you will see a menu item on admin menu named **"Woops"**.
+2. In the Woops page you can choose one woocommerce product and and one targeted page.
+The targeted page is upload video page. 
+3. Then go to the targeted page and choose page template named **"Video Upload Template"**, and update it.
+4. Now you can order products. But only if you order the chosen product, then after placing the order on the thank you page it will show targeted page to navigate. On that page you will see a file upload form.
+
+*Didn't go for farther, as I am sick.*
+*Thank you.*
